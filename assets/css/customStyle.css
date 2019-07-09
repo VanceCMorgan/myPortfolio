@@ -4,3 +4,10 @@
 .foot-contact{
     text-align: center;
 }
+.special{
+    display: inline-block !important;
+    padding-right: 20px;
+}
+.my-options{
+    display: block !important;
+}
