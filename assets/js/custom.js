@@ -9,6 +9,7 @@ function learnMore($index) {
             $('.project2').fadeOut(300);
             $('.project3').fadeOut(300);
             $('.project4').fadeOut(300);
+            $('.project5').fadeOut(300);
             $('#goBackBtn').fadeOut(300);
           break;
         case 1:

@@ -26,6 +26,7 @@
 			$('.project2').hide();
 			$('.project3').hide();
 			$('.project4').hide();
+			$('.project5').hide();
 			$('#goBackBtn').hide();
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
