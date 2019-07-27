@@ -21,6 +21,7 @@
     height: 100px;
     width: 200px;
     background-repeat: no-repeat;
+    float: left;
 }
 .row{
     position: relative;
@@ -42,10 +43,7 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 
 /* Modal Content/Box */
 .modal-content {
-background-color: #fefefe;
 margin: 15% auto; /* 15% from the top and centered */
-padding: auto;
-border: 1px solid #888;
 width: 40%; /* Could be more or less, depending on screen size */
 }
 
@@ -53,7 +51,7 @@ width: 40%; /* Could be more or less, depending on screen size */
 .close {
 color: #aaa;
 float: right;
-font-size: 28px;
+font-size: 38px;
 font-weight: bold;
 }
 
@@ -64,21 +62,23 @@ text-decoration: none;
 cursor: pointer;
 } 
 #img-holder{
-  height: 300px;
+    margin-left: 250px;
+    height: 300px;
 }
 .gallery{
     position: relative;
+    top: 30px;
     left: 50px;
+    margin-bottom: 50px;
     display: inline-block;
-    margin: 5px;
-    height: 100px;
 }
-#firstSlide{
+#backShuffle{
     float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
-#secondSlide{
-    float: left;
-}
-#thirdSlide{
-    float: left;
+#forwardShuffle{
+    float: right;
+    margin: 50px;
 }
