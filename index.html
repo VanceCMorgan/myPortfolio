@@ -76,52 +76,77 @@
 							<section id="four" class="wrapper alt style1">
 									<a name="projects">
 								<div class="inner">
+									
 									<a href="projects.html"><h2 class="major">Projects</h2></a>
+									<a name="projectName"></a>
 									<p>Below is a collection of some projects that I am most proud of.</p>
 									<section class="features">
 											<article>
 													<a href="#" class="image"><img src="images/android.jpg" alt="" /></a>
 													<h3 class="major">Google Books Android Application</h3>
+													
 													<p>Android, Java</p>
-													<a href="#projects" onclick="learnMore(1)" id="learnMore" class="special">Learn more</a>
+													<a href="#projectName" onclick="learnMore(1)" id="learnMore" class="special">Learn more</a>
 													<a href="https://github.com/VanceCMorgan/AndroidGoogleBooksApi" target="_blank" class="special">GitHub</a>
 												</article>
 												<article>
 													<a href="#" class="image"><img src="images/kid.jpg" alt="" /></a>
 													<h3 class="major">Kids Social Network</h3>
 													<p>Flutter</p>
-													<a href="#projects" onclick="learnMore(2)" id="learnMore" class="special">Learn more</a>
+													<a href="#projectName" onclick="learnMore(2)" id="learnMore" class="special">Learn more</a>
 													<a href="#" class="special">GitHub</a>
 												</article>
 												<article>
 													<a href="#" class="image"><img src="images/theoryQueryLogo.png" alt="" /></a>
 													<h3 class="major">Theory Query</h3>
 													<p>HTML5,CSS3, JavaScript</p>
-													<a href="#projects" onclick="learnMore(3)" id="learnMore" class="special">Learn more</a>
+													<a href="#projectName" onclick="learnMore(3)" id="learnMore" class="special">Learn more</a>
 													<a href="assets/downloads/Theory Query Proposal.pdf" class="special">View Proposal</a>
 												</article>
 												<article>
 														<a href="#" class="image"><img src="images/code.jpg" alt="" /></a>
 														<h3 class="major">Python API Example</h3>
 														<p>Python</p>
-														<a href="#projects" onclick="learnMore(4)" id="learnMore" class="special">Learn more</a>
+														<a href="#projectName" onclick="learnMore(4)" id="learnMore" class="special">Learn more</a>
 														<a href="#" class="special">GitHub</a>
 												</article>
 												<article>
 													<a href="#" class="image"><img src="images/code.jpg" alt="" /></a>
 													<h3 class="major">React & UX</h3>
 													<p>React</p>
-													<a href="#projects" onclick="learnMore(5)" id="learnMore" class="special">Learn more</a>
+													<a href="#projectName" onclick="learnMore(5)" id="learnMore" class="special">Learn more</a>
 													<a href="#" class="special">GitHub</a>
 												</article>
 									</section>
+									
+									
 										<!-- Project 1 -->
 										<article class="project1">
 												<div class="content">
 													<h3 class="major">Google Books Application</h3>
-													<p>Here are some thigns about this app</p>
-													<p>Thats a pic of my app :)</p>
-													<p>Maybe also blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p>
+													<div class="gallery">
+														<div id="firstSlide" class="slide" onclick="blowUp(1)"></div>
+														<div id="secondSlide" class="slide" onclick="blowUp(2)"></div>
+														<div id="thirdSlide" class="slide" onclick="blowUp(3)"></div>
+													</div>
+													<button class="shuffleBackButtton" onclick="shuffle(-1)"> < </button>
+													<button class="shuffleButtton" onclick="shuffle(1)">></button>
+													<p><b>Technologies:</b> </p>
+													<ul style="column-count: 2">
+														<li>Android</li>
+														<li>Java</li>
+														<li>HTTP Requests</li>
+														<li>JSON encoding/decoding</li>
+														<li>UI & UX</li>
+													</ul>
+													<p><b>Background:</b>
+													It was For School.
+													</p>
+													<p><b>Difficulties: </b>
+													not much im awesome
+													</p>
+													<p><b>What I Learned:</b>
+													alot of things </p>
 												</div>
 										</article>
 										<!-- Project 2 -->
@@ -182,8 +207,17 @@
 									</article>
 									<ul class="actions">
 										<li><a href="#projects" onclick="learnMore(-1)" id="goBackBtn" class="button">Go Back</a></li>
+										<li><a href="https://github.com/VanceCMorgan/AndroidGoogleBooksApi" target="_blank" id="goBackBtn" class="button">GitHub</a></li>
 									</ul>
 									
+								</div>
+
+								<!-- The Modal -->
+								<div id="myModal" class="modal">
+										<span class="close">&times;</span>
+								<!-- Modal content -->
+								<div class="modal-content">
+									<div id="img-holder"></div>
 								</div>
 								
 							</section>
