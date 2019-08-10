@@ -21,7 +21,9 @@
 			html, body {
 				min-width: 320px;
 			}
-		}
+		}		
+
+
 
 	// Set box model to border-box.
 	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
@@ -42,12 +44,12 @@
 		background-size:		auto,
 								cover;
 
+		background-repeat: no-repeat;
 		background-attachment:	fixed,
 								fixed;
 
 		background-position:	center,
 								center;
-
 		// Stops initial animations until page loads.
 			&.is-preload {
 				*, *:before, *:after {

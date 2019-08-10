@@ -1,11 +1,16 @@
 .social-icon{
- padding: 15px;
+ padding-right: 15px;
+ padding-bottom: 15px;
 }
 .foot-contact{
     text-align: center;
 }
 .special{
     display: inline-block !important;
+    padding-right: 20px;
+}
+.specialBlock{
+    display: block !important;
     padding-right: 20px;
 }
 .my-options{
@@ -16,17 +21,20 @@
     height: 300px;
 }
 .slide{
-    display: block;
+    display: inline-block;
     position: relative;
     height: 100px;
-    width: 200px;
+    width: 80px;
     background-repeat: no-repeat;
-    float: left;
+    margin: auto;
 }
 .row{
     position: relative;
     left: 400px;
   }
+.gallery{
+    text-align: center;
+}
    /* The Modal (background) */
 .modal {
 display: none; /* Hidden by default */
@@ -51,7 +59,7 @@ width: 40%; /* Could be more or less, depending on screen size */
 .close {
 color: #aaa;
 float: right;
-font-size: 38px;
+font-size: 30px;
 font-weight: bold;
 }
 
@@ -65,20 +73,18 @@ cursor: pointer;
     margin-left: 250px;
     height: 300px;
 }
-.gallery{
-    position: relative;
-    top: 30px;
-    left: 50px;
-    margin-bottom: 50px;
-    display: inline-block;
-}
+
 #backShuffle{
     float: left;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #forwardShuffle{
     float: right;
-    margin: 50px;
+    margin-top: 20px;
+}
+#view{
+    position: relative;
+    top: 50px;
+    padding: 450px;
+    padding-left: 500px;
 }
