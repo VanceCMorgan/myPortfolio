@@ -88,3 +88,9 @@ cursor: pointer;
     padding: 450px;
     padding-left: 500px;
 }
+a{
+    text-decoration: none;
+}
+a :hover{
+    text-decoration: none;
+}
