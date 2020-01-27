@@ -29,6 +29,7 @@
 			$('.project5').hide();
 			$('#githubBtn').hide();
 			$('#goBackBtn').hide();
+			$('#menu').fadeIn();
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			});
