@@ -36,11 +36,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-#menu{
-	-moz-transition: color 0.2s ease-in-out, 0.2s ease-in-out;
-	-webkit-transition: color 0.2s ease-in-out, 0.2s ease-in-out;
-	-ms-transition: color 0.2s ease-in-out, 0.2s ease-in-out;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -3296,6 +3291,10 @@ input, select, textarea {
 		#menu h2 {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			padding-bottom: 1em;
+			-moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease;
+			-webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
+			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
+			transition: opacity 0.35s ease, transform 0.35s ease;
 		}
 
 		#menu .close {
@@ -4157,3 +4156,9 @@ input, select, textarea {
 		}
 
 	}
+	
+#menu{
+	-moz-transition: color 0.2s ease-in-out, 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, 0.2s ease-in-out;
+}
