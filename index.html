@@ -64,7 +64,7 @@
 							<section id="one" class="wrapper spotlight style1">
 								
 								<div class="inner">
-									<a id="my-img" class="image"><img src="images/software4.png" alt="" /></a>
+									<img class="my-img" src="images/chair.png" alt="softwareImage" />
 									<div class="content">
 										<h2 class="major">About Me</h2>
 										<p>I am a recent graduate of the <a href="https://www.mohawkcollege.ca/programs/technology/computer-systems-technology-software-development-559" target="_blank">Software Development Program</a> at Mohawk College.
@@ -85,15 +85,6 @@
 													<a href="#" class="image"><img src="images/android.jpg" alt="" /></a>
 													<h3 class="major">Google Books Android Application</h3>
 													<p>Allows the user to search the Google Books API and retrieves relevant information and photos for the given criteria.</p>
-													<label for="bookTech">Technologies:</label>
-														<ul id="bookTech">
-															<li>Android</li>
-															<li>Java</li>
-															<li>HTTP Requests</li>
-															<li>JSON encoding/decoding</li>
-															<li>UI & UX</li>
-															<li>Api Consumption</li>
-														</ul>
 													<a href="#projectName" onclick="learnMore(1)" id="learnMore" class="special">Learn more</a>
 													<a href="https://github.com/VanceCMorgan/AndroidGoogleBooksApi" target="_blank" class="special">GitHub</a>
 												</article>
@@ -101,45 +92,21 @@
 													<a href="#" class="image"><img src="images/kid.jpg" alt="" /></a>
 													<h3 class="major">Valid8 Social Network</h3>
 													<p>Social Network that allows users to provide sources for their posts that can be given a validation score.</p>
-													<label for="validTech">Technologies:</label>
-														<ul id="validTech">
-															<li>Node.js</li>
-															<li>Express</li>
-															<li>SQLite</li>
-															<li>Websockets</li>
-															<li>REST Api Creation</li>
-															<li>Responsive Design</li>
-														</ul>
 													<a href="#projectName" onclick="learnMore(2)" id="learnMore" class="special">Learn more</a>
 													<a href="#" class="special">GitHub</a>
 												</article>
 												<article>
 													<a href="#" class="image"><img src="images/theoryQueryLogo.png" alt="" /></a>
 													<h3 class="major">Theory Query</h3>
-													<p>A web app that provides a place for musicians to brainstorm musical ideas and to save them while on the go. It also contains an exstensive collection of musical scales and chords that can be accesssed easily through a Restful interface.</p>
-													<label for="tQTech">Technologies:</label>
-														<ul id="tQTech">
-															<li>Asp.NET Core 2.2</li>
-															<li>Entity Framework</li>
-															<li>SQL Server</li>
-															<li>Third Party Authentication</li>
-															<li>Azure App Service</li>
-														</ul>
-													<a href="#projectName" onclick="learnMore(3)" id="learnMore" class="special">Learn more</a>
+													<p>A web app that provides a place for musicians to brainstorm musical ideas and to save them while on the go.</p>
 													<a href="assets/downloads/Theory Query Proposal.pdf" class="special">View Proposal</a>
+													<a href="#projectName" onclick="learnMore(3)" id="learnMore" class="special">Learn more</a>
 													<a href="https://github.com/VanceCMorgan/TheoryQuery" target="_blank" class="special">GitHub</a>
 												</article>
 												<article>
 														<a href="#" class="image"><img src="images/code.jpg" alt="" /></a>
 														<h3 class="major">MicroBrewery DashBoard</h3>
-														<p>A dashboard that recieves updates from multipe sources (Websocket,SMS,Database update) that simulate the daily operations of a MicroBrewery. The dashboard is a Single Page Application that allows the user to easily view and filter any of these status update messages.</p>
-														<label for="reactTech">Technologies:</label>
-														<ul id="reactTech">
-															<li>Single Page Application (SPA)</li>
-															<li>Vue,Vuex and Vue Router</li>
-															<li>Websockets</li>
-															<li>MicroService Architecture (Redis,Twilio,Slack)</li>
-														</ul>
+														<p>A dashboard that recieves updates from multipe sources (Websocket,SMS,Database update) that simulate the daily operations of a MicroBrewery.</p>
 														<a href="#projectName" onclick="learnMore(4)" id="learnMore" class="special">Learn more</a>
 														<a href="#" class="special">GitHub</a>
 												</article>
@@ -149,6 +116,7 @@
 										<article class="project1">
 												<div class="content">
 													<h3 class="major">Google Books Application</h3>
+													<p>Allows the user to search the Google Books API and retrieves relevant information and photos for the given criteria.</p>
 													<div class="gallery">
 														<button id="backShuffle" class="shuffleBackButtton" onclick="shuffle(-1)"> < </button>											
 															<div id="firstSlide" class="slide" onclick="blowUp(1)"></div>
@@ -156,16 +124,15 @@
 															<div id="thirdSlide" class="slide" onclick="blowUp(3)"></div>
 														<button id="forwardShuffle" class="shuffleButtton" onclick="shuffle(1)">></button>
 													</div>
-														
-														<p><b>Technologies:</b>
-													<ul style="column-count: 2">
-														<li>Android</li>
-														<li>Java</li>
-														<li>HTTP Requests</li>
-														<li>JSON encoding/decoding</li>
-														<li>UI & UX</li>
-														<li>Api Consumption</li>
-													</ul>
+													<label for="bookTech">Technologies:</label>
+														<ul id="bookTech">
+															<li>Android</li>
+															<li>Java</li>
+															<li>HTTP Requests</li>
+															<li>JSON encoding/decoding</li>
+															<li>UI & UX</li>
+															<li>Api Consumption</li>
+														</ul>
 													<p><b>Background:</b>
 													It was For School.
 													</p>
@@ -177,9 +144,41 @@
 												</div>
 										</article>
 										<!-- Project 2 -->
+										<article class="project2">
+											<div class="content">
+												<h3 class="major">Valid8 Social Network</h3>
+												<p>Social Network that allows users to provide sources for their posts that can be given a validation score.</p>	
+												<div class="gallery">
+													<button id="backShuffle" class="shuffleBackButtton" onclick="shuffle(-1)"> < </button>											
+														<div id="firstSlide" class="slide" onclick="blowUp(1)"></div>
+														<div id="secondSlide" class="slide" onclick="blowUp(2)"></div>
+														<div id="thirdSlide" class="slide" onclick="blowUp(3)"></div>
+													<button id="forwardShuffle" class="shuffleButtton" onclick="shuffle(1)">></button>
+												</div>
+												<label for="validTech">Technologies:</label>
+														<ul id="validTech">
+															<li>Node.js</li>
+															<li>Express</li>
+															<li>SQLite</li>
+															<li>Websockets</li>
+															<li>REST Api Creation</li>
+															<li>Responsive Design</li>
+														</ul>
+													<p><b>Background:</b>
+													It was For School.
+													</p>
+													<p><b>Difficulties: </b>
+													not much im awesome
+													</p>
+													<p><b>What I Learned:</b>
+													alot of things </p>
+											</div>
+										</article>
+										<!-- Project 3 -->
 										<article class="project3">
 												<div class="content">
 													<h3 class="major">TheoryQuery</h3>
+													<p>A web app that provides a place for musicians to brainstorm musical ideas and to save them while on the go.</p>
 													<div class="gallery">
 														<button id="backShuffle" class="shuffleBackButtton" onclick="shuffle(-1)"> < </button>											
 															<div id="firstSlide" class="slide" onclick="blowUp(1)"></div>
@@ -187,10 +186,14 @@
 															<div id="thirdSlide" class="slide" onclick="blowUp(3)"></div>
 														<button id="forwardShuffle" class="shuffleButtton" onclick="shuffle(1)">></button>
 													</div>
-
-															<p><b>Technologies:</b>
-														<ul style="column-count: 2">
-														</ul>
+													<label for="tQTech">Technologies:</label>
+													<ul id="tQTech">
+														<li>Asp.NET Core 2.2</li>
+														<li>Entity Framework</li>
+														<li>SQL Server</li>
+														<li>Third Party Authentication</li>
+														<li>Azure App Service</li>
+													</ul>
 														<p><b>Background:</b>
 														It was For School.
 														</p>
@@ -201,10 +204,11 @@
 														alot of things </p>
 												</div>
 										</article>
-										<!-- Project 3 -->
+										<!-- Project 4 -->
 										<article class="project4">
 												<div class="content">
-													<h3 class="major">Python API Example</h3>
+													<h3 class="major">Vue SPA Dashboard</h3>
+													<p>A dashboard that recieves updates from multipe sources (Websocket,SMS,Database update) that simulate the daily operations of a MicroBrewery. The dashboard is a Single Page Application that allows the user to easily view and filter any of these status update messages.</p>
 													<div class="gallery">
 														<button id="backShuffle" class="shuffleBackButtton" onclick="shuffle(-1)"> < </button>											
 															<div id="firstSlide" class="slide" onclick="blowUp(1)"></div>
@@ -212,10 +216,13 @@
 															<div id="thirdSlide" class="slide" onclick="blowUp(3)"></div>
 														<button id="forwardShuffle" class="shuffleButtton" onclick="shuffle(1)">></button>
 													</div>
-
-															<p><b>Technologies:</b>
-														<ul style="column-count: 2">
-														</ul>
+													<label for="reactTech">Technologies:</label>
+													<ul id="reactTech">
+														<li>Single Page Application (SPA)</li>
+														<li>Vue,Vuex and Vue Router</li>
+														<li>Websockets</li>
+														<li>MicroService Architecture (Redis,Twilio,Slack)</li>
+													</ul>
 														<p><b>Background:</b>
 														It was For School.
 														</p>
