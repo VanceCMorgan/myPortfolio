@@ -16,10 +16,7 @@
 .my-options{
     display: block !important;
 }
-#my-img{
-    border-radius: 50 !important;
-    height: 300px;
-}
+
 .slide{
     display: inline-block;
     position: relative;
