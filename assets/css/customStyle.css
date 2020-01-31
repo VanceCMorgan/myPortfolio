@@ -1,4 +1,7 @@
-.social-icon{
+html {
+    scroll-behavior: smooth;
+  }
+  .social-icon{
  padding-right: 15px;
  padding-bottom: 15px;
 }
@@ -17,8 +20,8 @@
     display: block !important;
 }
 .my-img{
-    height: 300px;
-    width: 300px;
+    height: 450px;
+    width: 400px;
 }
 .slide{
     display: inline-block;
@@ -87,17 +90,22 @@ cursor: pointer;
     padding: 450px;
     padding-left: 500px;
 }
-a4
+a{
     text-decoration: none;
 }
 a :hover{
     text-decoration: none;
 }
+ul{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
 .smallLogo{
     height: 15px;
     width: 15px;
     position: relative;
-    top:2px;
+    top:1px;
     right:5px;
     color: white;
     margin-left: 5px;
