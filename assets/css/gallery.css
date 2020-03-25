@@ -9,6 +9,7 @@
 .column img {
   opacity: 0.8;
   cursor: pointer;
+  width:100%;
 }
 
 .column img:hover {
@@ -16,7 +17,7 @@
 }
 
 /* Clear floats after the columns */
-.row:after {
+.galleryRow:after {
   content: "";
   display: table;
   clear: both;
