@@ -15,9 +15,11 @@
 .column img:hover {
   opacity: 1;
 }
-
+#galRow{
+    left:0px !important;
+}
 /* Clear floats after the columns */
-.galleryRow:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
