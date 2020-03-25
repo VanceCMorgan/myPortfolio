@@ -138,6 +138,14 @@
 													<p>Allows the user to search the genius API for popular songs and then view the lyric data.</p>
 													<!-- The grid: four columns -->
 								<div id="galRow" class="row">
+																	<!-- The expanding image container -->
+								<div class="container">
+									<!-- Close the image -->
+									<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+									<!-- Expanded image -->
+									<img id="expandedImg" style="width:95%;margin:auto;">
+									<!-- Image text -->
+									<div id="imgtext"></div>
 								<div class="column">
 									<img src="./images/screenshots/LA/landing.png" alt="Song Search" onclick="myFunction(this);">
 								</div>
@@ -154,14 +162,6 @@
 									<img src="./images/screenshots/LA/lineGraph.png" alt="Line Graph" onclick="myFunction(this);">
 								</div>
 								</div>
-								<!-- The expanding image container -->
-								<div class="container">
-								<!-- Close the image -->
-								<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-								<!-- Expanded image -->
-								<img id="expandedImg" style="width:85%;margin:auto;">
-								<!-- Image text -->
-								<div id="imgtext"></div>
 								</div>
 
 													<label for="bookTech">Technologies:</label>

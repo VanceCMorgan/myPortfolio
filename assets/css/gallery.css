@@ -41,8 +41,10 @@
   left: 15px;
   color: white;
   font-size: 22px;
-  margin:1rem;
-  background-color: rgba(35, 3, 110, 0.2);
+  margin: 1rem;
+  padding: 0.2rem;
+  border-radius: 5px;
+  background-color: rgba(55, 53, 110, 0.9);
 }
 
 /* Closable button inside the image */
