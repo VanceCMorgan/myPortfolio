@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/customStyle.css">
+		<link rel="stylesheet" href="assets/css/gallery.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -135,13 +136,34 @@
 													<span class="fab fa-react social-icon"alt="React"title="React"></span>
 													<span class="fab fa-node-js social-icon"alt="NodeJS"title="NodeJS"></span>
 													<p>Allows the user to search the genius API for popular songs and then view the lyric data.</p>
-													<div class="gallery">
-														<button id="backShuffle" class="shuffleBackButtton" onclick="shuffle(-1)"> < </button>											
-															<div id="firstSlide" class="slide" onclick="blowUp(1)"></div>
-															<div id="secondSlide" class="slide" onclick="blowUp(2)"></div>
-															<div id="thirdSlide" class="slide" onclick="blowUp(3)"></div>
-														<button id="forwardShuffle" class="shuffleButtton" onclick="shuffle(1)">></button>
-													</div>
+													<!-- The grid: four columns -->
+								<div class="row">
+								<div class="column">
+									<img src="./images/screenshots/LA/landing.png" alt="Song Search" onclick="myFunction(this);">
+								</div>
+								<div class="column">
+									<img src="./images/screenshots/LA/results.png.png" alt="Search Results" onclick="myFunction(this);">
+								</div>
+								<div class="column">
+									<img src="./images/screenshots/LA/lyricData.png.png" alt="Lyrics and Count Data" onclick="myFunction(this);">
+								</div>
+								<div class="column">
+									<img src="./images/screenshots/LA/barGraph.png.png" alt="Bar Graph" onclick="myFunction(this);">
+								</div>
+								<div class="column">
+									<img src="./images/screenshots/LA/lineGraph.png.png" alt="Line Graph" onclick="myFunction(this);">
+								</div>
+								</div>
+								<!-- The expanding image container -->
+								<div class="container">
+								<!-- Close the image -->
+								<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+								<!-- Expanded image -->
+								<img id="expandedImg" style="width:100%">
+								<!-- Image text -->
+								<div id="imgtext"></div>
+								</div>
+
 													<label for="bookTech">Technologies:</label>
 														<ul id="bookTech">
 															<li>React with Redux</li>
@@ -294,6 +316,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/custom.js"></script>
+			<script src="assets/js/gallery.js"></script>
 
 	</body>
 </html>
