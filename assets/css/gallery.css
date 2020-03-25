@@ -1,9 +1,9 @@
-* The grid: Four equal columns that floats next to each other */
+/* The grid: Four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
 
 /* Style the images inside the grid */
 .column img {
