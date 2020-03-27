@@ -9,4 +9,4 @@
 <li>Resume</li>
 </ul>
 
-<p>If you have any further question sconcerning this project feel free to email me at: vance.morgan1@mohawkcollege.ca</p>
+<p>If you have any further questions concerning this project feel free to email me at: vance.morgan1@mohawkcollege.ca</p>
