@@ -1,6 +1,7 @@
-function openImage(imgs) {
+function openImage(imgs,projectNumber) {
+  console.log(projectNumber);
     // Get the expanded image
-    var expandImg = document.getElementsByClassName("expandedImg")[0];
+    var expandImg = document.getElementsByClassName("expandedImg")[projectNumber-1];
     // Get the image text
     var imgText = document.getElementById("imgtext");
     // Use the same src in the expanded image as the image being clicked on from the grid
