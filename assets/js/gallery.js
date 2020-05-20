@@ -1,5 +1,7 @@
 function openImage(imgs) {
   console.log(imgs.src,imgs.alt);
+  
+  console.log(expandImg.src);
     // Get the expanded image
     var expandImg = document.getElementById("expandedImg");
     // Get the image text
@@ -10,5 +12,7 @@ function openImage(imgs) {
     imgText.innerHTML = imgs.alt;
     // Show the container element (hidden with CSS)
     expandImg.parentElement.style.display = "block";
+
+    console.log(expandImg.src);
   }
   
