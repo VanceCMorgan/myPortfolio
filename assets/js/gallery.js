@@ -1,7 +1,5 @@
 function openImage(imgs) {
   console.log(imgs.src,imgs.alt);
-  
-  console.log(expandImg.src);
     // Get the expanded image
     var expandImg = document.getElementById("expandedImg");
     // Get the image text
