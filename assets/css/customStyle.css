@@ -122,12 +122,12 @@ ul{
 }
 .goToButton{
     float: right;
-    border: 2px solid #5b6ba6;
+    background-color: #5b6ba6;
     width: fit-content;
     padding: 0.25rem;
     border-radius: 5px;
 }
 .goToButton:hover{
     cursor: pointer;
-    background-color: #5b6ba6;
+    background-color: #7a8ed6;
 }
