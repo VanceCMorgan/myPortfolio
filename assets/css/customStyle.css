@@ -120,3 +120,8 @@ ul{
 #toTop{
     text-align:center;
 }
+.goToButton{
+    float: right;
+    background-color: blueviolet;
+    width: fit-content;
+}
