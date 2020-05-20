@@ -1,7 +1,10 @@
 html {
     scroll-behavior: smooth;
   }
-   .social-icon{
+* {
+    scroll-behavior: smooth;
+}
+.social-icon{
  padding-right: 15px;
  padding-bottom: 15px;
 }
@@ -30,6 +33,9 @@ html {
     width: 80px;
     background-repeat: no-repeat;
     margin: auto;
+}
+#banner{
+    height: 90vh;
 }
 .row{
     position: relative;

@@ -69,7 +69,7 @@
 									<div  id="myBlock" class="content">
 										<h2 class="major">About Me</h2>
 										<p>I am a recent graduate of the <a href="https://www.mohawkcollege.ca/programs/technology/computer-systems-technology-software-development-559" target="_blank">Software Development Program</a> at Mohawk College.
-										After an extensive time spent developing superior communication skills and professionalism in the retail field, I am ready to take bring these skills to the technology industry.
+										After an extensive time spent developing superior communication skills and professionalism in the retail field, I am ready to bring these skills to the technology industry.
 										<b>I build creative, intuitive and powerful programs for public and enterprise use.</b></p>
 										<a href="resume.html" class="special">View Resume</a>
 									</div>
@@ -83,7 +83,7 @@
 									<p>Below is a collection of some projects that I am most proud of.</p>
 									<section class="features">
 											<article>
-													<a href="#" class="image"><img src="images/android.jpg" alt="" /></a>
+													<a href="#projectName" onclick="learnMore(1)" class="image"><img src="images/android.jpg" alt="" /></a>
 													<h3 class="major">Lyric App</h3>
 													<span class="fab fa-react social-icon"alt="React"title="React"></span>
 													<span class="fab fa-node-js social-icon"alt="NodeJS"title="NodeJS"></span>
@@ -93,7 +93,7 @@
 													<a href="#projectName" onclick="learnMore(1)" id="learnMore" class="special">Learn more</a>
 												</article>
 												<article>
-													<a href="#" class="image"><img src="images/valid8.png" alt="" /></a>
+													<a href="#projectName" onclick="learnMore(2)" class="image"><img src="images/valid8.png" alt="" /></a>
 													<h3 class="major">Valid8 Social Network</h3>
 													<span class="fab fa-node-js social-icon"alt="NodeJS"title="NodeJS"></span>
 													<img class="smallLogo" src="images/sqlite.png" alt="SQLite" title="SQLite"/>
@@ -103,7 +103,7 @@
 													<a href="#projectName" onclick="learnMore(2)" id="learnMore" class="special">Learn more</a>
 												</article>
 												<article>
-													<a href="#" class="image"><img src="images/theoryQueryLogo.png" alt="" /></a>
+													<a href="#projectName" onclick="learnMore(3)" class="image"><img src="images/theoryQueryLogo.png" alt="" /></a>
 													<h3 class="major">Theory Query</h3>
 													<span class="fab fa-google social-icon"alt="Google"title="Google"></span>
 													<span class="fab fa-js social-icon" alt="JavaScript"title="JavaScript"></span>
@@ -117,14 +117,14 @@
 													<a href="#projectName" onclick="learnMore(3)" id="learnMore" class="special">Learn more</a>
 												</article>
 												<article>
-														<a href="#" class="image"><img src="images/code.jpg" alt="" /></a>
+														<a href="#projectName" onclick="learnMore(4)" class="image"><img src="images/code.jpg" alt="" /></a>
 														<h3 class="major">MicroBrewery DashBoard</h3>
 														<span class="fab fa-vuejs social-icon"alt="VueJS"title="VueJS"></span>
 														<span class="fab fa-slack-hash social-icon"alt="Slack"title="Slack"></span>
 														<img class="smallLogo" src="images/twilio.png" alt="Twilio" title="Twilio"/>
 														<img class="smallLogo" src="images/redis.png" alt="Redis" title="Redis"/>
 														<p>A dashboard that recieves updates from multipe sources (Websocket,SMS,Database update) that simulate the daily operations of a MicroBrewery.</p>
-														<a href="#" class="special">GitHub</a>
+														<a href="https://github.com/VanceCMorgan/brewerydash" class="special">GitHub</a>
 														<a href="#projectName" onclick="learnMore(4)" id="learnMore" class="special">Learn more</a>
 												</article>
 									</section>
@@ -136,33 +136,33 @@
 													<span class="fab fa-react social-icon"alt="React"title="React"></span>
 													<span class="fab fa-node-js social-icon"alt="NodeJS"title="NodeJS"></span>
 													<p>Allows the user to search the genius API for popular songs and then view the lyric data.</p>
-								<!-- The grid: four columns -->
-								<div id="galRow" class="row">
-								<div class="column">
-									<img src="./images/screenshots/LA/landing.png" alt="Song Search" onclick="myFunction(this);">
-								</div>
-								<div class="column">
-									<img src="./images/screenshots/LA/results.png" alt="Search Results" onclick="myFunction(this);">
-								</div>
-								<div class="column">
-									<img src="./images/screenshots/LA/lyricData.png" alt="Lyrics and Count Data" onclick="myFunction(this);">
-								</div>
-								<div class="column">
-									<img src="./images/screenshots/LA/barGraph.png" alt="Bar Graph" onclick="myFunction(this);">
-								</div>
-								<div class="column">
-									<img src="./images/screenshots/LA/lineGraph.png" alt="Line Graph" onclick="myFunction(this);">
-								</div>
-								</div>
-								<!-- The expanding image container -->
-								<div class="container">
-								<!-- Close the image -->
-								<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-								<!-- Expanded image -->
-								<img id="expandedImg" style="width:95%;margin:auto;">
-								<!-- Image text -->
-								<div id="imgtext"></div>
-								</div>
+													<!-- The grid: four columns -->
+													<div id="galRow" class="row">
+													<div class="column">
+														<img src="./images/screenshots/LA/landing.png" alt="Song Search" onclick="myFunction(this);">
+													</div>
+													<div class="column">
+														<img src="./images/screenshots/LA/results.png" alt="Search Results" onclick="myFunction(this);">
+													</div>
+													<div class="column">
+														<img src="./images/screenshots/LA/lyricData.png" alt="Lyrics and Count Data" onclick="myFunction(this);">
+													</div>
+													<div class="column">
+														<img src="./images/screenshots/LA/barGraph.png" alt="Bar Graph" onclick="myFunction(this);">
+													</div>
+													<div class="column">
+														<img src="./images/screenshots/LA/lineGraph.png" alt="Line Graph" onclick="myFunction(this);">
+													</div>
+													</div>
+													<!-- The expanding image container -->
+													<div class="container">
+													<!-- Close the image -->
+													<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+													<!-- Expanded image -->
+													<img id="expandedImg" style="width:75%;margin:auto;">
+													<!-- Image text -->
+													<div id="imgtext"></div>
+													</div>
 
 													<label for="bookTech">Technologies:</label>
 														<ul id="bookTech">
@@ -209,11 +209,11 @@
 													<!-- Close the image -->
 													<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 													<!-- Expanded image -->
-													<img id="expandedImg" style="width:95%;margin:auto;">
+													<img id="expandedImg" style="width:75%;margin:auto;">
 													<!-- Image text -->
 													<div id="imgtext"></div>
 													</div>
-												<label for="validTech">Technologies:</label>
+													<label for="validTech">Technologies:</label>
 														<ul id="validTech">
 															<li>Node.js</li>
 															<li>Express</li>
@@ -265,7 +265,7 @@
 														<!-- Close the image -->
 														<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 														<!-- Expanded image -->
-														<img id="expandedImg" style="width:95%;margin:auto;">
+														<img id="expandedImg" style="width:75%;margin:auto;">
 														<!-- Image text -->
 														<div id="imgtext"></div>
 														</div>
@@ -318,7 +318,7 @@
 														<!-- Close the image -->
 														<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 														<!-- Expanded image -->
-														<img id="expandedImg" style="width:95%;margin:auto;">
+														<img id="expandedImg" style="width:75%;margin:auto;">
 														<!-- Image text -->
 														<div id="imgtext"></div>
 														</div>
