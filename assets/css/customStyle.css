@@ -122,7 +122,7 @@ ul{
 }
 .goToButton{
     float: right;
-    background-color: pink;
+    background-color: #5b6ba6;
     width: fit-content;
     padding: 0.25rem;
     border-radius: 5px;
@@ -130,4 +130,7 @@ ul{
 .goToButton:hover{
     cursor: pointer;
     background-color: #7a8ed6;
+}
+.projectArticle:hover{
+    cursor: pointer;
 }
