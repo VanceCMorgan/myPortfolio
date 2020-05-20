@@ -1,6 +1,6 @@
 function openImage(imgs) {
     // Get the expanded image
-    var expandImg = document.getElementById("expandedImg");
+    var expandImg = document.getElementsByClassName("expandedImg");
     // Get the image text
     var imgText = document.getElementById("imgtext");
     // Use the same src in the expanded image as the image being clicked on from the grid
@@ -9,7 +9,5 @@ function openImage(imgs) {
     imgText.innerHTML = imgs.alt;
     // Show the container element (hidden with CSS)
     expandImg.parentElement.style.display = "block";
-
-    console.log(expandImg.src);
   }
   
