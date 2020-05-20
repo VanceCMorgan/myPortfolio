@@ -1,5 +1,5 @@
 function openImage(imgs,projectNumber) {
-  console.log(document.getElementsByClassName("imgtext")[0]);
+  console.log(document.getElementsByClassName("imgtext")[0].style);
     // Get the expanded image
     var expandImg = document.getElementsByClassName("expandedImg")[projectNumber-1];
     // Get the image text
