@@ -35,7 +35,7 @@
 }
 
 /* Expanding image text */
-#imgtext {
+.imgtext {
   position: absolute;
   bottom: 15px;
   left: 15px;
