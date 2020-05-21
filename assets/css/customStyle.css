@@ -5,7 +5,6 @@ html {
     scroll-behavior: smooth;
 }
 .social-icon{
- padding-right: 15px;
  padding-bottom: 15px;
 }
 .foot-contact{
@@ -114,8 +113,7 @@ ul{
     top: 3px;
     right: 5px;
     color: white;
-    margin-left: 15px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 #toTop{
     text-align:center;
