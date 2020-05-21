@@ -108,13 +108,13 @@ ul{
     column-count: 3;
 }
 .smallLogo{
-    height: 15px;
-    width: 15px;
+    height: 16px;
+    width: 16px;
     position: relative;
-    top:1px;
-    right:5px;
+    top: 3px;
+    right: 5px;
     color: white;
-    margin-left: 5px;
+    margin-left: 15px;
     margin-right: 10px;
 }
 #toTop{
@@ -124,8 +124,9 @@ ul{
     float: right;
     background-color: #5b6ba6;
     width: fit-content;
-    padding: 0.25rem;
+    padding: 0.5rem;
     border-radius: 5px;
+    margin-left:2rem;
 }
 .goToButton:hover{
     cursor: pointer;
