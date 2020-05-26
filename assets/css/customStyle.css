@@ -133,3 +133,15 @@ ul{
 .projectArticle:hover{
     cursor: pointer;
 }
+#one{
+    height: 75vh;
+}
+@media only screen and (min-height: 1000px) {
+    .my-img{
+        height: 650px;
+        width: 800px;
+    }
+    #myBlock{
+        font-size: 120%;
+    }
+  }
