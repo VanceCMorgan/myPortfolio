@@ -172,6 +172,6 @@ ul{
         border-radius: 5px;
         margin-left:0px;
         margin-right: 0.5rem !important;
-        float: left;
+        font-size: 80%;
     }
 }
