@@ -32,7 +32,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+section{
+	min-height: fit-content;
+}
 ol, ul {
 	list-style: none;
 }
