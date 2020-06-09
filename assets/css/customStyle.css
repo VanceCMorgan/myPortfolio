@@ -82,6 +82,7 @@ cursor: pointer;
 }
 .fullLine{
     width: fit-content;
+    max-width: fit-content;
 }
 #backShuffle{
     float: left;
