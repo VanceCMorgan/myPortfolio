@@ -161,7 +161,17 @@ ul{
         padding: 0.25rem;
         border-radius: 5px;
         margin-left:0px;
-        margin-top: 0.5rem;
-        margin-right: 0px !important;
+        margin-right: 0.5rem !important;
+    }
+}
+@media only screen and (max-width: 415px){
+    .goToButton{
+        background-color: #5b6ba6;
+        width: fit-content;
+        padding: 0.25rem;
+        border-radius: 5px;
+        margin-left:0px;
+        margin-right: 0.5rem !important;
+        float: left;
     }
 }
