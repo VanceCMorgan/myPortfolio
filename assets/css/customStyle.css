@@ -157,7 +157,7 @@ ul{
         display: none;
     }
   }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 490px){
     .goToButton{
         background-color: #5b6ba6;
         width: fit-content;
