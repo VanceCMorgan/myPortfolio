@@ -162,17 +162,9 @@ ul{
         border-radius: 5px;
         margin-left:0px;
         margin-right: 0.5rem !important;
-    }
-}
-@media only screen and (max-width: 415px){
-    .goToButton{
-        background-color: #5b6ba6;
-        width: fit-content;
-        padding: 0.25rem;
-        border-radius: 5px;
-        margin-left:0px;
-        margin-right: 0.5rem !important;
         font-size: 80%;
+        float: left;
+        margin-bottom: 0.2rem;
     }
     .fullLine{
         width: 100%;
