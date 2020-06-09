@@ -80,7 +80,9 @@ cursor: pointer;
 #img-holder{
     margin-left: 250px;
 }
-
+.fullLine{
+    width: fit-content;
+}
 #backShuffle{
     float: left;
     margin-top: 20px;
