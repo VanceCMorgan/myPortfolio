@@ -4,6 +4,9 @@ html {
 * {
     scroll-behavior: smooth;
 }
+.social-icon{
+ padding-right: 15px;
+}
 .foot-contact{
     text-align: center;
 }
