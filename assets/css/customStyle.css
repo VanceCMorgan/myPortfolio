@@ -125,6 +125,7 @@ ul{
     top: 3px;
     right: 5px;
     color: white;
+    margin-left:0.5rem;
 }
 #proj_head{
     padding-bottom: 2em !important;
