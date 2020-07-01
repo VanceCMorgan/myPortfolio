@@ -118,6 +118,14 @@ ul{
     color: white;
     margin-left: 10px;
 }
+.smallLogo2{
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 3px;
+    right: 5px;
+    color: white;
+}
 #proj_head{
     padding-bottom: 2em !important;
 }
