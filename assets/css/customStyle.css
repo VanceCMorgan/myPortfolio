@@ -152,6 +152,9 @@ ul{
 .projectArticle:hover{
     cursor: pointer;
 }
+#resume{
+    margin: 0 auto;
+}
 #one{
     height: 75vh;
 }
