@@ -154,6 +154,8 @@ ul{
 }
 #resume{
     margin: 0 auto;
+    width: 55rem;
+    height: 1200px;
 }
 #one{
     height: 75vh;
