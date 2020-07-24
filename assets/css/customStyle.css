@@ -156,7 +156,7 @@ ul{
     height: 75vh;
 }
 .skillItem{
-    padding:1rem;
+    padding:1.5rem;
 }
 @media only screen and (min-height: 1000px) {
     .my-img{
