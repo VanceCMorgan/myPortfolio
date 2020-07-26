@@ -203,3 +203,10 @@ ul{
         padding-bottom: 2.5em !important;
     }
 }
+@media only screen and (max-width: 736px) {
+    .goToButton{
+        height: 2.5rem;
+        margin-bottom: 0rem;
+        
+    }
+  }
