@@ -57,6 +57,7 @@
 							class="special goToButton dlBtn" download><span id="docTxt" class="btnText">Download .docx</span></a>
 					</h2>
 					<embed id="resume" src="./assets/downloads/Vance Morgan Resume.pdf"/>
+					<iframe src="http://docs.google.com/viewer?url=[./assets/downloads/Vance Morgan Resume.pdf]&embedded=true" width="600" height="780" style="border: none;"></iframe>
 				</div>
 			</header>
 		</section>
@@ -75,16 +76,13 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/custom.js"></script>
 	<script>
-		console.log("hi");
 		window.onresize = () =>{
-			console.log(window.innerWidth);
 			if(window.innerWidth>590){
 				document.querySelector("#pdfTxt").innerHTML = "Download .pdf";
 				document.querySelector("#docTxt").innerHTML = "Download .docx";
 			}else{
-				alert("shrinl");
-				document.querySelector("#pdfTxt").innerHTML = ".pdf";
-				document.querySelector("#docTxt").innerHTML = ".docx";
+				document.querySelector("#pdfTxt").innerHTML = " .pdf";
+				document.querySelector("#docTxt").innerHTML = " .docx";
 			}
 		}
 	</script>
