@@ -52,9 +52,9 @@
 					</div>
 					<h2>Resume
 						<a href="assets/downloads/Vance Morgan Resume.docx" style="display: block !important;"
-						class="special goToButton dlBtn" download><span class="btnText">Download .pdf</span></a>
+						class="special goToButton dlBtn" download><span id="pdfTxt" class="btnText">Download .pdf</span></a>
 						<a href="assets/downloads/Vance Morgan Resume.pdf" style="display: block !important;"
-							class="special goToButton dlBtn" download><span class="btnText">Download .docx</span></a>
+							class="special goToButton dlBtn" download><span id="docTxt" class="btnText">Download .docx</span></a>
 					</h2>
 					<embed id="resume" src="./assets/downloads/Vance Morgan Resume.pdf"/>
 				</div>
@@ -77,8 +77,14 @@
 	<script>
 		console.log("hi");
 		window.onresize = () =>{
-			console.log("resized"+window.innerWidth);
-		}
+			console.log(window.innerWidth);
+			if(window.innerWidth>490){
+				document.querySelector("#pdfTxt").innerHTML = "Download .pdf";
+				document.querySelector("#docTxt").innerHTML = "Download .docx";
+			}else{
+				document.querySelector("#pdfTxt").innerHTML = ".pdf";
+				document.querySelector("#docTxt").innerHTML = ".docx";
+			}
 	</script>
 </body>
 
