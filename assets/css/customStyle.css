@@ -207,6 +207,8 @@ ul{
     .goToButton{
         height: 2.5rem;
         margin-bottom: 0rem;
-        
+    }
+    .btnText{
+        font-size: x-small;
     }
   }
