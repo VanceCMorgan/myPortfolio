@@ -78,10 +78,11 @@
 		console.log("hi");
 		window.onresize = () =>{
 			console.log(window.innerWidth);
-			if(window.innerWidth>490){
+			if(window.innerWidth>590){
 				document.querySelector("#pdfTxt").innerHTML = "Download .pdf";
 				document.querySelector("#docTxt").innerHTML = "Download .docx";
 			}else{
+				alert("shrinl");
 				document.querySelector("#pdfTxt").innerHTML = ".pdf";
 				document.querySelector("#docTxt").innerHTML = ".docx";
 			}
