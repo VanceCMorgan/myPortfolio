@@ -239,6 +239,8 @@ input, select, textarea {
 				text-indent: 0.15em;
 				vertical-align: middle;
 				width: 2em;
+				position: relative;
+				bottom: .3rem;
 			}
 
 			a.special:not(.button):hover:before {
