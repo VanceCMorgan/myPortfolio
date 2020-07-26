@@ -202,6 +202,10 @@ ul{
     #proj_head {
         padding-bottom: 2.5em !important;
     }
+    .dlBtn{
+        font-size: 10px !important;
+        margin-left: .5rem !important;
+    }
 }
 @media only screen and (max-width: 736px) {
     .goToButton{
