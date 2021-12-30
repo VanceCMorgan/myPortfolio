@@ -1,16 +1,16 @@
 /* The grid: Four equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    text-align: center;
-  }
+  float: left;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+}
 
 /* Style the images inside the grid */
 .column img {
   opacity: 0.8;
   cursor: pointer;
-  width:100%;
+  width: 100%;
   margin: auto;
 }
 
@@ -18,12 +18,12 @@
   opacity: 1;
   transform: scale(1.15);
 }
-#galRow{
-    left:0px !important;
+#galRow {
+  left: 0px !important;
 }
 /* Clear floats after the columns */
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -33,7 +33,13 @@
   position: relative;
   display: none;
 }
-
+.expandedImage {
+  width: auto;
+  margin: auto;
+  margin-left: 50%;
+  max-height: 28rem;
+  transform: translateX(-50%);
+}
 /* Expanding image text */
 .imgtext {
   position: absolute;
@@ -51,8 +57,9 @@
 .closebtn {
   position: absolute;
   top: -15px;
-  right:0px;
+  right: 15px;
   color: white;
   font-size: 35px;
   cursor: pointer;
+  z-index: 100;
 }

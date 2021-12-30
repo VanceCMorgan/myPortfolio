@@ -1,221 +1,225 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-.social-icon-head{
-    margin-right: 1rem;
+.social-icon-head {
+  margin-right: 1rem;
 }
-.foot-contact{
-    text-align: center;
+.foot-contact {
+  text-align: center;
 }
-.special{
-    display: inline-block !important;
-    padding-right: 20px;
+.special {
+  display: inline-block !important;
+  padding-right: 20px;
 }
-.specialBlock{
-    display: block !important;
-    padding-right: 20px;
+.specialBlock {
+  display: block !important;
+  padding-right: 20px;
 }
-.my-options{
-    display: block !important;
+.my-options {
+  display: block !important;
 }
-.my-img{
-    height: 450px;
-    width: 400px;
+.my-img {
+  height: 450px;
+  width: 400px;
 }
-.slide{
-    display: inline-block;
-    position: relative;
-    height: 100px;
-    width: 80px;
-    background-repeat: no-repeat;
-    margin: auto;
+.slide {
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 80px;
+  background-repeat: no-repeat;
+  margin: auto;
 }
-#banner{
-    height: 90vh;
+#banner {
+  height: 90vh;
 }
-.row{
-    position: relative;
-    left: 400px;
-  }
-.gallery{
-    text-align: center;
+.row {
+  position: relative;
+  left: 400px;
 }
-   /* The Modal (background) */
+.gallery {
+  text-align: center;
+}
+/* The Modal (background) */
 .modal {
-display: none; /* Hidden by default */
-position: fixed; /* Stay in place */
-z-index: 1; /* Sit on top */
-left: 0;
-top: 0;
-width: 100%; /* Full width */
-height: 100%; /* Full height */
-overflow: auto; /* Enable scroll if needed */
-background-color: rgb(0,0,0); /* Fallback color */
-background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-margin: 15% auto; /* 15% from the top and centered */
-width: 40%; /* Could be more or less, depending on screen size */
+  margin: 15% auto; /* 15% from the top and centered */
+  width: 40%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
 .close {
-color: #aaa;
-float: right;
-font-size: 30px;
-font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-color: black;
-text-decoration: none;
-cursor: pointer;
-} 
-#img-holder{
-    margin-left: 250px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
-.fullLine{
-    max-width: fit-content;
-    display: inline;
+#img-holder {
+  margin-left: 250px;
 }
-#backShuffle{
-    float: left;
-    margin-top: 20px;
+.fullLine {
+  max-width: fit-content;
+  display: inline;
 }
-#forwardShuffle{
-    float: right;
-    margin-top: 20px;
+#backShuffle {
+  float: left;
+  margin-top: 20px;
 }
-#view{
-    position: relative;
-    top: 50px;
-    padding: 450px;
-    padding-left: 500px;
+#forwardShuffle {
+  float: right;
+  margin-top: 20px;
 }
-a{
-    text-decoration: none !important;
+#view {
+  position: relative;
+  top: 50px;
+  padding: 450px;
+  padding-left: 500px;
 }
-a:hover{
-    text-decoration: none !important;
+a {
+  text-decoration: none !important;
 }
-ul{
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
+a:hover {
+  text-decoration: none !important;
 }
-.smallLogo{
-    height: 16px;
-    width: 16px;
-    position: relative;
-    top: 3px;
-    right: 5px;
-    color: white;
-    margin-left: 10px;
+ul {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
 }
-.dlBtn{
-    font-size: 14px !important;
-    margin-left: 1.5rem !important;
+.smallLogo {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 3px;
+  right: 5px;
+  color: white;
+  margin-left: 10px;
 }
-.smallLogo2{
-    height: 16px;
-    width: 16px;
-    position: relative;
-    top: 3px;
-    right: 5px;
-    color: white;
-    margin-left:0.5rem;
+.dlBtn {
+  font-size: 14px !important;
+  margin-left: 1.5rem !important;
 }
-#proj_head{
-    padding-bottom: 2em !important;
+.smallLogo2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 3px;
+  right: 5px;
+  color: white;
+  margin-left: 0.5rem;
 }
-#toTop{
-    text-align:center;
+#proj_head {
+  padding-bottom: 2em !important;
 }
-.goToButton{
-    float: right;
-    background-color: #5b6ba6;
-    width: fit-content;
-    padding: 0.5rem;
-    border-radius: 5px;
-    margin-left:2rem;
+#toTop {
+  text-align: center;
 }
-.goToButton:hover{
-    cursor: pointer;
-    background-color: #7a8ed6;
+.goToButton {
+  float: right;
+  background-color: #5b6ba6;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-left: 2rem;
 }
-.projectArticle:hover{
-    cursor: pointer;
+.goToButton:hover {
+  cursor: pointer;
+  background-color: #7a8ed6;
 }
-.resume-header{
-    padding-top: 5rem !important;
+.projectArticle:hover {
+  cursor: pointer;
 }
-#resume{
-    margin: 0 auto;
-    width: 100%;
-    height: 90vh;
+.resume-header {
+  padding-top: 5rem !important;
 }
-#one{
-    height: 75vh;
+#resume {
+  margin: 0 auto;
+  width: 100%;
+  height: 90vh;
 }
-.skillItem{
-    padding:1.5rem;
+#one {
+  height: 75vh;
+}
+.skillItem {
+  padding: 1.5rem;
+}
+.gal-cont {
+  display: block;
+  width: fit-content;
 }
 @media only screen and (min-height: 1000px) {
-    .my-img{
-        height: 650px;
-        width: 800px;
-    }
-    #myBlock{
-        font-size: 120%;
-    }
+  .my-img {
+    height: 650px;
+    width: 800px;
+  }
+  #myBlock {
+    font-size: 120%;
+  }
 }
 @media only screen and (min-height: 1300px) {
-    .skillItem{
-        padding: .5rem;
-    }
+  .skillItem {
+    padding: 0.5rem;
   }
+}
 
-  @media only screen and (max-width: 720px) {
-    .my-img{
-        display: none;
-    }
+@media only screen and (max-width: 720px) {
+  .my-img {
+    display: none;
   }
-@media only screen and (max-width: 490px){
-    .goToButton{
-        background-color: #5b6ba6;
-        width: fit-content;
-        padding: 0.25rem;
-        border-radius: 5px;
-        margin-left:0px;
-        margin-right: 0.25rem !important;
-        font-size: 80%;
-        float: left;
-        margin-bottom: 0.2rem;
-    }
-    .fullLine{
-        width: 100%;
-        display: block;
-    }
-    #proj_head {
-        padding-bottom: 2.5em !important;
-    }
-    .dlBtn{
-        font-size: 10px !important;
-        margin-left: .5rem !important;
-    }
+}
+@media only screen and (max-width: 490px) {
+  .goToButton {
+    background-color: #5b6ba6;
+    width: fit-content;
+    padding: 0.25rem;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0.25rem !important;
+    font-size: 80%;
+    float: left;
+    margin-bottom: 0.2rem;
+  }
+  .fullLine {
+    width: 100%;
+    display: block;
+  }
+  #proj_head {
+    padding-bottom: 2.5em !important;
+  }
+  .dlBtn {
+    font-size: 10px !important;
+    margin-left: 0.5rem !important;
+  }
 }
 @media only screen and (max-width: 736px) {
-    .goToButton{
-        height: 2.5rem;
-        margin-bottom: 0rem;
-    }
-    .btnText{
-        font-size: x-small;
-    }
+  .goToButton {
+    height: 2.5rem;
+    margin-bottom: 0rem;
   }
+  .btnText {
+    font-size: x-small;
+  }
+}
